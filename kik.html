@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kółko i krzyżyk</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="header">
+  <div class="hero-image">
+  <div class="transbox">
+    <h1 style="font-size:60px">Domowy warzywnik</h1>
+    <h2 style="font-size:32px">Od nasion do plonów</h2>
+  </div>
+  </div>
+</div>
+
+<div class="topnav">
+    <a class="active" href="index.html"><b>Wstęp</b></a>
+    <a href="w1.html"><b>Warzywa</b></a>
+	<a href="o1.html"><b>Owoce</b></a>
+	<a href="kik.html"><b>Kółko i krzyżyk</b></a>
+</div>
+
+<div class="row">
+  <div class="column side"></div>
+  
+  <div class="column middle">
+	<article>
+	<br/><br/><br/>
+	<h1 style="text-align:center">Gra Kółko i krzyzyk</h1>
+	<br/><br/><br/>
+
+		<div class="inline">
+			<div id="players">
+				<h3>Z kim chcesz grać?</h3>
+				<button id="one_player">Gra z komputerem</button>
+				<button id="two_players">Gra z przeciwnikiem</button>
+				<div id="play_with"></div>
+			</div>
+			
+			<div id="choose">
+				<h3>Wybierz swój znak:</h3>
+				<button style="background-color: #c6ecd6; border-radius: 10px" id="X">X</button>
+				<button style="background-color: #c6ecd6; border-radius: 10px" id="zero">O</button>
+				<div id="you_choose"></div>
+			</div>
+			
+			<div id="resert_div">
+				<button id="reset">Zagraj jeszcze raz!</button>
+			</div>
+			<div id="statement"><b>Tabela wyników</b></div>
+			
+		</div>
+		<div class="inline">
+			<table>
+				<tr><td id="jeden"></td><td id="dwa"></td><td id="trzy"></td></tr>
+				<tr><td id="cztery"></td><td id="piec"></td><td id="szesc"></td></tr>
+				<tr><td id="siedem"></td><td id="osiem"></td><td id="dziewiec"></td></tr>
+			</table>
+		</div>
+		<br/><br/><br/><br/><br/><br/>
+	<script src="game.js"></script>
+	</article>
+  </div>
+  
+  <div class="column side"></div>
+</div>
+  
+<div class="footer">
+  <p>Źródło: https://pl.wikipedia.org</p>
+</div>
+
+</body>
+</html>
